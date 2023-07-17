@@ -25,6 +25,7 @@ img {
 .flex {
   display: flex;
   justify-content: center;
+	
 }
 
 .selected {
@@ -34,7 +35,14 @@ img {
 p {
   text-align: center;
 }
-
+h1,h3{
+	text-align:center;
+}
+.btn{
+	display:flex;
+	justify-content:center;
+	visibility:hidden;
+}
 button {
   margin: 20px;
 }
