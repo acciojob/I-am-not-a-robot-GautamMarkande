@@ -20,6 +20,7 @@ img {
   margin: 10px;
   border: 5px solid #555;
   width: 10%;
+	cursor:pointer;
 }
 
 .flex {
@@ -38,7 +39,12 @@ p {
 h1,h3{
 	text-align:center;
 }
-.btn{
+#reset{
+	display:flex;
+	justify-content:center;
+	visibility:hidden;
+}
+#verify{
 	display:flex;
 	justify-content:center;
 	visibility:hidden;
