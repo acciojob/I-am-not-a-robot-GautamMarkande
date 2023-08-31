@@ -2,6 +2,7 @@
 const images = Array.from(document.getElementsByTagName("img"));
 const main = document.getElementById("main");
 const p = document.createElement("p");
+p.id="para"
 let count = 0;
 let arr = [];
 const reset = document.getElementById("reset");
